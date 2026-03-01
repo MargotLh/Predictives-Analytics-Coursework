@@ -9,10 +9,10 @@ Binary classification model to predict hotel booking cancellations using the Hot
 
 ## Project Workflow
 
-| Stage | Notebook | Description |
+| Stage | Description |
 |---|---|---|
-| Section 2 | `EDA_section2.ipynb` | Exploratory data analysis - distributions, missingness, outliers, leakage |
-| Section 3 | `preprocessing_section3.ipynb` | Preprocessing pipeline — cleaning, encoding, time-based split |
+| Section 2 |  Exploratory data analysis - distributions, missingness, outliers, leakage |
+| Section 3 |  Preprocessing pipeline — cleaning, encoding, time-based split |
 
 ---
 
