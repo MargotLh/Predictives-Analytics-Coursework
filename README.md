@@ -9,10 +9,19 @@ Binary classification model to predict hotel booking cancellations using the Hot
 
 ## Project Workflow
 
-| Stage | Description |
+This project follows an agentic methodology — each stage was planned, 
+delegated to an AI agent, verified, and revised before proceeding.
+
+| Stage | Description | Agent Role |
 |---|---|---|
-| Section 2 |  Exploratory data analysis - distributions, missingness, outliers, leakage |
-| Section 3 |  Preprocessing pipeline — cleaning, encoding, time-based split |
+| Section 1 — Problem Framing | Define target, metrics, constraints | Validated framing, identified leakage risk |
+| Section 2 — EDA | Visual analysis of distributions, missingness, outliers | Generated initial code, iterated on feedback |
+| Section 3 — Data Preparation | Preprocessing pipeline, time-based split | Suggested cleaning steps, verified and corrected |
+| Section 4 — Modelling | Baseline → Random Forest → XGBoost → MLP | TBD |
+| Section 5 — Evaluation | Per hotel type evaluation, threshold tuning | TBD |
+
+Detailed agent interactions and accept/reject decisions are documented 
+in the Agent Usage Log (Appendix).
 
 ---
 
